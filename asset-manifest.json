@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BetrayalCheatSheet/static/css/main.24490057.chunk.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.4b2be145.chunk.js",
-    "main.js.map": "/BetrayalCheatSheet/static/js/main.4b2be145.chunk.js.map",
+    "main.css": "/BetrayalCheatSheet/static/css/main.75eabe0b.chunk.css",
+    "main.js": "/BetrayalCheatSheet/static/js/main.ddbfd824.chunk.js",
+    "main.js.map": "/BetrayalCheatSheet/static/js/main.ddbfd824.chunk.js.map",
     "runtime-main.js": "/BetrayalCheatSheet/static/js/runtime-main.e439eae8.js",
     "runtime-main.js.map": "/BetrayalCheatSheet/static/js/runtime-main.e439eae8.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/BetrayalCheatSheet/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a4d98fe9.chunk.js": "/BetrayalCheatSheet/static/js/2.a4d98fe9.chunk.js",
-    "static/js/2.a4d98fe9.chunk.js.map": "/BetrayalCheatSheet/static/js/2.a4d98fe9.chunk.js.map",
+    "static/css/2.4c34b247.chunk.css": "/BetrayalCheatSheet/static/css/2.4c34b247.chunk.css",
+    "static/js/2.8441a009.chunk.js": "/BetrayalCheatSheet/static/js/2.8441a009.chunk.js",
+    "static/js/2.8441a009.chunk.js.map": "/BetrayalCheatSheet/static/js/2.8441a009.chunk.js.map",
     "index.html": "/BetrayalCheatSheet/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/BetrayalCheatSheet/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.24490057.chunk.css.map": "/BetrayalCheatSheet/static/css/main.24490057.chunk.css.map",
-    "static/js/2.a4d98fe9.chunk.js.LICENSE.txt": "/BetrayalCheatSheet/static/js/2.a4d98fe9.chunk.js.LICENSE.txt",
+    "static/css/2.4c34b247.chunk.css.map": "/BetrayalCheatSheet/static/css/2.4c34b247.chunk.css.map",
+    "static/css/main.75eabe0b.chunk.css.map": "/BetrayalCheatSheet/static/css/main.75eabe0b.chunk.css.map",
+    "static/js/2.8441a009.chunk.js.LICENSE.txt": "/BetrayalCheatSheet/static/js/2.8441a009.chunk.js.LICENSE.txt",
     "static/media/1transport.png": "/BetrayalCheatSheet/static/media/1transport.a3f37af5.png",
     "static/media/2fort.png": "/BetrayalCheatSheet/static/media/2fort.f9c39d47.png",
     "static/media/3research.png": "/BetrayalCheatSheet/static/media/3research.e19f6148.png",
@@ -38,9 +38,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e439eae8.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a4d98fe9.chunk.js",
-    "static/css/main.24490057.chunk.css",
-    "static/js/main.4b2be145.chunk.js"
+    "static/css/2.4c34b247.chunk.css",
+    "static/js/2.8441a009.chunk.js",
+    "static/css/main.75eabe0b.chunk.css",
+    "static/js/main.ddbfd824.chunk.js"
   ]
 }
