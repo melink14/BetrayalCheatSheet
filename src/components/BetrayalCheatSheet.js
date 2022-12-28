@@ -41,7 +41,7 @@ class BetrayalCheatSheet extends React.Component {
         const share_id = pako.gzip(JSON.stringify(this.state.selected));
         const textArea = document.createElement('textarea');
         textArea.style.background = 'transparent';
-        textArea.value = "https://poetools.github.io/BetrayalCheatSheet/#share=" + Base64.fromUint8Array(share_id, /* urlSafe= */ true);
+        textArea.value = `${window.location.origin}/BetrayalCheatSheet/#share=${Base64.fromUint8Array(share_id, /* urlSafe= */ true)}`;
         document.body.appendChild(textArea);
         textArea.select();
 
