@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import zlib from 'zlib';
+import pako from 'pako';
+import { Base64 } from 'js-base64';
 import {BlockPicker} from 'react-color';
 import './BetrayalCheatSheet.css';
 
@@ -18,7 +19,7 @@ class BetrayalCheatSheet extends React.Component {
 
         if (window.location.hash.includes('share=')) {
             try {
-                this.state.selected = JSON.parse(zlib.gunzipSync(Buffer.from(decodeURIComponent(window.location.hash.split('share=')[1]), 'base64')).toString());
+                this.state.selected = JSON.parse(pako.inflate(Base64.toUint8Array(window.location.hash.split('share=')[1]), {to:'string'}));
             } catch(e) {
                 alert('Failed to load shared data');
                 this.state.selected = Array(TABLE_ROW_SIZE*TABLE_COL_SIZE).fill(0);
@@ -37,10 +38,10 @@ class BetrayalCheatSheet extends React.Component {
     };
 
     shareSelected = () => {
-        const share_id = zlib.gzipSync(Buffer.from(JSON.stringify(this.state.selected)));
+        const share_id = pako.gzip(JSON.stringify(this.state.selected));
         const textArea = document.createElement('textarea');
         textArea.style.background = 'transparent';
-        textArea.value = "https://poetools.github.io/BetrayalCheatSheet/#share=" + encodeURIComponent(share_id.toString('base64'));
+        textArea.value = "https://poetools.github.io/BetrayalCheatSheet/#share=" + Base64.fromUint8Array(share_id, /* urlSafe= */ true);
         document.body.appendChild(textArea);
         textArea.select();
 
