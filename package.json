@@ -1,15 +1,15 @@
 {
   "homepage": "https://melink14.github.io/BetrayalCheatSheet",
-  "name": "test1",
+  "name": "betrayalcheatsheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.6.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-color": "^2.19.3",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^4.0.0"
   }
 }
