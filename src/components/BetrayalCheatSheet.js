@@ -294,17 +294,6 @@ class BetrayalTable extends React.Component {
     }
 }
 
-// Workaround for https://github.com/facebook/create-react-app/issues/9992
-// Using custom context that excludes index.html in public is required since
-// webpack tries to load all possible in dynamic requires causing compliation error.
-const assets = require.context('../../public', true, /assets.*\.png$/);
-function publicFile(assetPath) {
-    if (assetPath == null || assetPath === '') {
-        return '';
-    }
-    return assets(`./${assetPath}`);
-}
-
 class BetrayalTableCell extends React.Component {
     colourList = ['', 'colourOne', 'colourTwo', 'colourThree'];
 
@@ -331,7 +320,7 @@ class BetrayalTableCell extends React.Component {
     render() {
         const key = this.props.description;
         return (
-            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={publicFile(this.props.img)} alt={this.props.alt} className="select-disable"/>
+            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={`${process.env.PUBLIC_URL}/${this.props.img}`} alt={this.props.alt} className="select-disable"/>
                 {this.props.description.split('\n').map(x => {
                     return <p key={key + x}>{x.replace(/\//g, '/\u200B')}</p>;
                 })}
@@ -365,7 +354,7 @@ class BetrayalTableHeader extends React.Component {
 
     render() {
         return (
-            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={publicFile(this.props.img)} alt={this.props.alt} className="select-disable"/>
+            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={`${process.env.PUBLIC_URL}/${this.props.img}`} alt={this.props.alt} className="select-disable"/>
                 <h1>
                     {this.props.description}
                 </h1>
