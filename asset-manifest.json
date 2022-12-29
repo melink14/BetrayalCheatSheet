@@ -1,34 +1,13 @@
 {
   "files": {
     "main.css": "/BetrayalCheatSheet/static/css/main.d4a26390.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.9d2d8236.js",
-    "static/media/Jorgin.png": "/BetrayalCheatSheet/static/media/Jorgin.07ed3baa34e3a2107c80.png",
-    "static/media/Tora.png": "/BetrayalCheatSheet/static/media/Tora.70267fba127111330f09.png",
-    "static/media/Elreon.png": "/BetrayalCheatSheet/static/media/Elreon.b3deae8b95671b75dee2.png",
-    "static/media/Vagan.png": "/BetrayalCheatSheet/static/media/Vagan.a9602f66c28e6813ff28.png",
-    "static/media/It_That_Fled.png": "/BetrayalCheatSheet/static/media/It_That_Fled.538c2827cdeeaf82ca0c.png",
-    "static/media/Cameria.png": "/BetrayalCheatSheet/static/media/Cameria.dcdad461cb67f6cf6a64.png",
-    "static/media/Haku.png": "/BetrayalCheatSheet/static/media/Haku.ca00c695cd67c49f232e.png",
-    "static/media/Janus.png": "/BetrayalCheatSheet/static/media/Janus.03bff94d1b8e97a22687.png",
-    "static/media/Rin.png": "/BetrayalCheatSheet/static/media/Rin.c3a11f3660c602eacbb3.png",
-    "static/media/Vorici.png": "/BetrayalCheatSheet/static/media/Vorici.1013c517171c3a842e8f.png",
-    "static/media/Hillock.png": "/BetrayalCheatSheet/static/media/Hillock.27b34c6fdb722cb3287b.png",
-    "static/media/Korell.png": "/BetrayalCheatSheet/static/media/Korell.587d6a677a63ff8f07ac.png",
-    "static/media/Riker.png": "/BetrayalCheatSheet/static/media/Riker.67d03e5d2a0ef7cfc56c.png",
-    "static/media/Guff.png": "/BetrayalCheatSheet/static/media/Guff.aba5d6ac34d1db30270d.png",
-    "static/media/Aisling.png": "/BetrayalCheatSheet/static/media/Aisling.4fb2d91221e96183dd0b.png",
-    "static/media/Leo.png": "/BetrayalCheatSheet/static/media/Leo.2a5c3e698463d2fc1a50.png",
-    "static/media/Gravicius.png": "/BetrayalCheatSheet/static/media/Gravicius.e81964198a0abe4ab197.png",
-    "static/media/2fort.png": "/BetrayalCheatSheet/static/media/2fort.a3f37af5bf3cb239dd8a.png",
-    "static/media/4intervention.png": "/BetrayalCheatSheet/static/media/4intervention.356e45b9b87a6fe22d32.png",
-    "static/media/1transport.png": "/BetrayalCheatSheet/static/media/1transport.a3f37af5bf3cb239dd8a.png",
-    "static/media/3research.png": "/BetrayalCheatSheet/static/media/3research.9a8f7b86348953c0a304.png",
+    "main.js": "/BetrayalCheatSheet/static/js/main.3447eacc.js",
     "index.html": "/BetrayalCheatSheet/index.html",
     "main.d4a26390.css.map": "/BetrayalCheatSheet/static/css/main.d4a26390.css.map",
-    "main.9d2d8236.js.map": "/BetrayalCheatSheet/static/js/main.9d2d8236.js.map"
+    "main.3447eacc.js.map": "/BetrayalCheatSheet/static/js/main.3447eacc.js.map"
   },
   "entrypoints": [
     "static/css/main.d4a26390.css",
-    "static/js/main.9d2d8236.js"
+    "static/js/main.3447eacc.js"
   ]
 }
