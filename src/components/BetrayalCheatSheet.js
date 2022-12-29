@@ -293,11 +293,14 @@ class BetrayalTable extends React.Component {
 }
 
 // Workaround for https://github.com/facebook/create-react-app/issues/9992
+// Using custom context that excludes index.html in public is required since
+// webpack tries to load all possible in dynamic requires causing compliation error.
+const assets = require.context('../../public', true, /assets.*\.png$/);
 function publicFile(assetPath) {
     if (assetPath == null || assetPath === '') {
         return '';
     }
-    return require(`../../public/${assetPath}`)?.default;
+    return assets(`./${assetPath}`);
 }
 
 class BetrayalTableCell extends React.Component {
