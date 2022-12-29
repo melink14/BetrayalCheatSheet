@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BetrayalCheatSheet/static/css/main.d4a26390.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.399da39b.js",
+    "main.js": "/BetrayalCheatSheet/static/js/main.92240e1c.js",
     "static/media/Jorgin.png": "/BetrayalCheatSheet/static/media/Jorgin.07ed3baa34e3a2107c80.png",
     "static/media/Tora.png": "/BetrayalCheatSheet/static/media/Tora.70267fba127111330f09.png",
     "static/media/Elreon.png": "/BetrayalCheatSheet/static/media/Elreon.b3deae8b95671b75dee2.png",
@@ -22,13 +22,13 @@
     "static/media/2fort.png": "/BetrayalCheatSheet/static/media/2fort.a3f37af5bf3cb239dd8a.png",
     "static/media/4intervention.png": "/BetrayalCheatSheet/static/media/4intervention.356e45b9b87a6fe22d32.png",
     "static/media/1transport.png": "/BetrayalCheatSheet/static/media/1transport.a3f37af5bf3cb239dd8a.png",
-    "static/media/3research.png": "/BetrayalCheatSheet/static/media/3research.8144bb72430c8d5b792d.png",
+    "static/media/3research.png": "/BetrayalCheatSheet/static/media/3research.9a8f7b86348953c0a304.png",
     "index.html": "/BetrayalCheatSheet/index.html",
     "main.d4a26390.css.map": "/BetrayalCheatSheet/static/css/main.d4a26390.css.map",
-    "main.399da39b.js.map": "/BetrayalCheatSheet/static/js/main.399da39b.js.map"
+    "main.92240e1c.js.map": "/BetrayalCheatSheet/static/js/main.92240e1c.js.map"
   },
   "entrypoints": [
     "static/css/main.d4a26390.css",
-    "static/js/main.399da39b.js"
+    "static/js/main.92240e1c.js"
   ]
 }
