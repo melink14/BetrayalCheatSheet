@@ -19,7 +19,9 @@ class BetrayalCheatSheet extends React.Component {
 
         if (window.location.hash.includes('share=')) {
             try {
-                this.state.selected = JSON.parse(pako.inflate(Base64.toUint8Array(window.location.hash.split('share=')[1]), {to:'string'}));
+                // decodeURIComponent isn't necessary when using encoding with Base64.fromUint8Array urlSafe mode but including it
+                // is backwards compatible with previous versions of BetrayalCheatSheet.
+                this.state.selected = JSON.parse(pako.inflate(Base64.toUint8Array(decodeURIComponent(window.location.hash.split('share=')[1])), {to:'string'}));
             } catch(e) {
                 alert('Failed to load shared data');
                 this.state.selected = Array(TABLE_ROW_SIZE*TABLE_COL_SIZE).fill(0);
