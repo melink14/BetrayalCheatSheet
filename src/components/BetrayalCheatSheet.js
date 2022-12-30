@@ -1,3 +1,4 @@
+import domtoimage from 'dom-to-image-more';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import pako from 'pako';
@@ -55,6 +56,19 @@ class BetrayalCheatSheet extends React.Component {
             document.body.removeChild(textArea);
             alert('Failed to copy to clipboard.');
         }
+    };
+
+    saveToImage = async () => {
+      try {
+        const dataUrl = await domtoimage.toPng(document.getElementById('cheatsheet-table'))
+        var link = document.createElement('a');
+        link.download = 'betrayalcheatsheet.png';
+        link.href = dataUrl;
+        link.click();
+      } catch (error) {
+          alert('Failed to save image.');
+          console.error("Failed to save image.", error);
+      }
     };
 
     // Changes cell colour
@@ -147,6 +161,7 @@ class BetrayalCheatSheet extends React.Component {
                         <Button id='clear' variant='danger' size='lg' onClick={this.clearSelected}>
                             Clear
                         </Button>
+                        <Button id='save' variant='secondary' size='lg' onClick={this.saveToImage}>Save as image</Button>
                     </div>
                 </section>
                 <section id='footer'>
