@@ -2,6 +2,10 @@ section {
     padding: 30px 0;
 }
 
+#cheatsheet-table {
+    background-color: #222;
+}
+
 #landing-description {
     background-color: #313131;
 }
