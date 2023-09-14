@@ -272,7 +272,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/guff/3research.png'} alt={'Research'} description={"?/30/?/40s Timed Craft"} id={'t35'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/3research.png'} alt={'Research'} description={"Rare Items with Quality"} id={'t36'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/3research.png'} alt={'Research'} description={"22/24/26/28 Quality to Flask"} id={'t37'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 7]}/>
-                    <BetrayalTableCell img={'assets/encounters/it_that_fled/3research.png'} alt={'Research'} description={"T1/T2/T3/2xT3 Upgrade Breachstone"} id={'t38'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 8]}/>
+                    <BetrayalTableCell img={'assets/encounters/it_that_fled/3research.png'} alt={'Research'} description={"T1/T2/T3/2xT3 Breachstone map device craft"} id={'t38'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 8]}/>
                     <BetrayalTableCell img={'assets/encounters/janus/3research.png'} alt={'Research'} description={"Expedition Currency"} id={'t39'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 9]}/>
                     <BetrayalTableCell img={'assets/encounters/jorgin/3research.png'} alt={'Research'} description={"Tier 1/2/3 Corrupt Amulet to Talisman"} id={'t310'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 10]}/>
                     <BetrayalTableCell img={'assets/encounters/korell/3research.png'} alt={'Research'} description={"Fossils"} id={'t311'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 11]}/>
