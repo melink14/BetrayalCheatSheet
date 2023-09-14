@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BetrayalCheatSheet/static/css/main.1137c287.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.c7f794bd.js",
+    "main.js": "/BetrayalCheatSheet/static/js/main.37085aa5.js",
     "index.html": "/BetrayalCheatSheet/index.html",
     "main.1137c287.css.map": "/BetrayalCheatSheet/static/css/main.1137c287.css.map",
-    "main.c7f794bd.js.map": "/BetrayalCheatSheet/static/js/main.c7f794bd.js.map"
+    "main.37085aa5.js.map": "/BetrayalCheatSheet/static/js/main.37085aa5.js.map"
   },
   "entrypoints": [
     "static/css/main.1137c287.css",
-    "static/js/main.c7f794bd.js"
+    "static/js/main.37085aa5.js"
   ]
 }
